@@ -1,0 +1,18 @@
+'Log files:
+C:\Users\mathe\OneDrive\Área de Trabalho\senhas\senhas\npm-cache\_logs\2024-12-09T12_51_40_682Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: senhas@0.1.0
+Found: react@19.0.0
+node_modules/react
+  react@"^19.0.0" from the root project
+
+Could not resolve dependency:
+peer react@"^16.8.2 || ^17.0 || ^18.x" from react-gauge-chart@0.5.1
+node_modules/react-gauge-chart
+  react-gauge-chart@"*" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

@@ -1,0 +1,22 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\mathe\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.11.0
+3 silly config load:file:C:\Users\mathe\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\mathe\OneDrive\Área de Trabalho\senhas\.npmrc
+5 silly config load:file:C:\Users\mathe\.npmrc
+6 silly config load:file:C:\Users\mathe\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm exec create-react-app senhas
+8 verbose argv "exec" "--" "create-react-app" "senhas"
+9 verbose logfile logs-max:10 dir:C:\Users\mathe\OneDrive\Área de Trabalho\senhas\npm-cache\_logs\2024-12-06T16_35_41_549Z-
+10 verbose logfile C:\Users\mathe\OneDrive\Área de Trabalho\senhas\npm-cache\_logs\2024-12-06T16_35_41_549Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 http fetch GET 200 https://registry.npmjs.org/create-react-app 129ms (cache revalidated)
+14 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+15 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+16 verbose cwd C:\Users\mathe\OneDrive\Área de Trabalho\senhas
+17 verbose os Windows_NT 10.0.26100
+18 verbose node v22.11.0
+19 verbose npm  v10.9.2
+20 verbose exit 1
+21 verbose code 1

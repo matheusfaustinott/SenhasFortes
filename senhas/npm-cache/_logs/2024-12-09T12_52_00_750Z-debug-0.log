@@ -1,0 +1,100 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\mathe\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.11.0
+3 silly config load:file:C:\Users\mathe\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\mathe\OneDrive\Área de Trabalho\senhas\senhas\.npmrc
+5 silly config load:file:C:\Users\mathe\.npmrc
+6 silly config load:file:C:\Users\mathe\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install react-gauge-chart react-calendar @mui/material @emotion/react @emotion/styled--legacy-peer-deps
+8 verbose argv "install" "react-gauge-chart" "react-calendar" "@mui/material" "@emotion/react" "@emotion/styled--legacy-peer-deps"
+9 verbose logfile logs-max:10 dir:C:\Users\mathe\OneDrive\Área de Trabalho\senhas\senhas\npm-cache\_logs\2024-12-09T12_52_00_750Z-
+10 verbose logfile C:\Users\mathe\OneDrive\Área de Trabalho\senhas\senhas\npm-cache\_logs\2024-12-09T12_52_00_750Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest @emotion/react@^11.14.0
+16 silly packumentCache full:https://registry.npmjs.org/@emotion%2freact cache-miss
+17 http cache https://registry.npmjs.org/@emotion%2freact 159ms (cache hit)
+18 silly packumentCache full:https://registry.npmjs.org/@emotion%2freact set size:196548 disposed:false
+19 silly fetch manifest react@^19.0.0
+20 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+21 http cache https://registry.npmjs.org/react 12ms (cache hit)
+22 silly packumentCache full:https://registry.npmjs.org/react set size:5210139 disposed:false
+23 silly fetch manifest @mui/material@^6.1.10
+24 silly packumentCache full:https://registry.npmjs.org/@mui%2fmaterial cache-miss
+25 http cache https://registry.npmjs.org/@mui%2fmaterial 5ms (cache hit)
+26 silly packumentCache full:https://registry.npmjs.org/@mui%2fmaterial set size:640333 disposed:false
+27 silly fetch manifest @emotion/styled@^11.14.0
+28 silly packumentCache full:https://registry.npmjs.org/@emotion%2fstyled cache-miss
+29 http cache https://registry.npmjs.org/@emotion%2fstyled 5ms (cache hit)
+30 silly packumentCache full:https://registry.npmjs.org/@emotion%2fstyled set size:279403 disposed:false
+31 silly fetch manifest @mui/material-pigment-css@^6.1.10
+32 silly packumentCache full:https://registry.npmjs.org/@mui%2fmaterial-pigment-css cache-miss
+33 http cache https://registry.npmjs.org/@mui%2fmaterial-pigment-css 3ms (cache hit)
+34 silly packumentCache full:https://registry.npmjs.org/@mui%2fmaterial-pigment-css set size:82179 disposed:false
+35 silly fetch manifest @pigment-css/react@^0.0.27 || ^0.0.28
+36 silly packumentCache full:https://registry.npmjs.org/@pigment-css%2freact cache-miss
+37 http cache https://registry.npmjs.org/@pigment-css%2freact 2ms (cache hit)
+38 silly packumentCache full:https://registry.npmjs.org/@pigment-css%2freact set size:161440 disposed:false
+39 silly fetch manifest react@^17.0.0 || ^18.0.0
+40 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+41 http cache https://registry.npmjs.org/react 9ms (cache hit)
+42 silly packumentCache full:https://registry.npmjs.org/react set size:5210139 disposed:false
+43 silly fetch manifest @types/react@^17.0.0 || ^18.0.0 || ^19.0.0
+44 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+45 http cache https://registry.npmjs.org/@types%2freact 6ms (cache hit)
+46 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:2241944 disposed:false
+47 silly fetch manifest react-dom@^19.0.0
+48 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+49 http cache https://registry.npmjs.org/react-dom 10ms (cache hit)
+50 silly packumentCache full:https://registry.npmjs.org/react-dom set size:6407308 disposed:false
+51 silly fetch manifest react-gauge-chart@*
+52 silly packumentCache full:https://registry.npmjs.org/react-gauge-chart cache-miss
+53 http cache https://registry.npmjs.org/react-gauge-chart 4ms (cache hit)
+54 silly packumentCache full:https://registry.npmjs.org/react-gauge-chart set size:63016 disposed:false
+55 silly fetch manifest react@^16.8.2 || ^17.0 || ^18.x
+56 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+57 http cache https://registry.npmjs.org/react 8ms (cache hit)
+58 silly packumentCache full:https://registry.npmjs.org/react set size:5210139 disposed:false
+59 verbose stack Error: unable to resolve dependency tree
+59 verbose stack     at #failPeerConflict (C:\Users\mathe\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1363:25)
+59 verbose stack     at #loadPeerSet (C:\Users\mathe\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1329:33)
+59 verbose stack     at async #buildDepStep (C:\Users\mathe\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:904:11)
+59 verbose stack     at async Arborist.buildIdealTree (C:\Users\mathe\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:181:7)
+59 verbose stack     at async Promise.all (index 1)
+59 verbose stack     at async Arborist.reify (C:\Users\mathe\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:131:5)
+59 verbose stack     at async Install.exec (C:\Users\mathe\AppData\Roaming\npm\node_modules\npm\lib\commands\install.js:150:5)
+59 verbose stack     at async Npm.exec (C:\Users\mathe\AppData\Roaming\npm\node_modules\npm\lib\npm.js:207:9)
+59 verbose stack     at async module.exports (C:\Users\mathe\AppData\Roaming\npm\node_modules\npm\lib\cli\entry.js:74:5)
+60 error code ERESOLVE
+61 error ERESOLVE unable to resolve dependency tree
+62 error
+63 error While resolving: senhas@0.1.0
+63 error Found: react@19.0.0[2m[22m
+63 error [2mnode_modules/react[22m
+63 error   react@"^19.0.0" from the root project
+63 error
+63 error Could not resolve dependency:
+63 error [95mpeer[39m react@"^16.8.2 || ^17.0 || ^18.x" from react-gauge-chart@0.5.1[2m[22m
+63 error [2mnode_modules/react-gauge-chart[22m
+63 error   react-gauge-chart@"*" from the root project
+63 error
+63 error Fix the upstream dependency conflict, or retry
+63 error this command with --force or --legacy-peer-deps
+63 error to accept an incorrect (and potentially broken) dependency resolution.
+64 error
+64 error
+64 error For a full report see:
+64 error C:\Users\mathe\OneDrive\Área de Trabalho\senhas\senhas\npm-cache\_logs\2024-12-09T12_52_00_750Z-eresolve-report.txt
+65 silly unfinished npm timer reify 1733748721013
+66 silly unfinished npm timer reify:loadTrees 1733748721013
+67 silly unfinished npm timer idealTree:buildDeps 1733748721272
+68 silly unfinished npm timer idealTree:#root 1733748721272
+69 verbose cwd C:\Users\mathe\OneDrive\Área de Trabalho\senhas\senhas
+70 verbose os Windows_NT 10.0.26100
+71 verbose node v22.11.0
+72 verbose npm  v10.9.2
+73 verbose exit 1
+74 verbose code 1
+75 error A complete log of this run can be found in: C:\Users\mathe\OneDrive\Área de Trabalho\senhas\senhas\npm-cache\_logs\2024-12-09T12_52_00_750Z-debug-0.log
